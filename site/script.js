@@ -1,3 +1,12 @@
+console.log(document.getElementById("title"));
+
+function sayHello() {
+    var name =
+        document.getElementById("name").value;
+        var message = "Hello" + name + "!";
+    document.getElementById("content").textContent = message;
+}
+
 var x = "Learning Var Scopes";
 function a () {
     var x = 5;
